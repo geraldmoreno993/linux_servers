@@ -1,4 +1,4 @@
-Crear usuario de servidor LINUX con/sin poderes sudo para conexión remota en área local (misma red)
+# Crear usuario de servidor LINUX con/sin poderes sudo para conexión remota en área local (misma red)
  
 ```
 #Pasos para crear usuario con/sin poderes sudo, si no deseas darle sudo power entonces debes obviar la parte de ##sudo usermod -aG sudo nombre_de_usuario##
