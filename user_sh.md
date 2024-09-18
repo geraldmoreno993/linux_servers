@@ -1,6 +1,7 @@
 # Crear usuario de servidor LINUX con/sin poderes sudo para conexión remota en área local (misma red)
  
 ```
+#!/bin/bash
 #Pasos para crear usuario con/sin poderes sudo, si no deseas darle sudo power entonces debes obviar la parte de ##sudo usermod -aG sudo nombre_de_usuario##
 #Primero: debes ser el admin de tu servidor y ubicandote en la terminal del servidor, pegas estas líneas de comandos
 #Solamente por el momento es útil cuando se desea conectar con la misma red pública en la que está el servidor, es decir
