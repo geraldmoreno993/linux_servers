@@ -21,8 +21,7 @@ sudo chown -R nombre_de_usuario:nombre_de_usuario /home/nombre_de_usuario
 sudo apt install openssh-server
 sudo systemctl enable ssh
 #Obtener la dirección IP del servidor
-ip a #Una vez ejecutes esto, debes buscar con ayuda de chatgpt el numero de IP del servidor, te diriges a tu pc o laptop conectada a la msiam
-#red que el sercidor y coloca
+ip a #Una vez ejecutes esto, debes buscar con ayuda de chatgpt el numero de IP del servidor, te diriges a tu pc o laptop conectada a la misma red que el servidor y coloca
 ssh nombre_de_usuario@IP
 
 ```
